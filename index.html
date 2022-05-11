@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="container">
+      <div id="logo-container">
+        <img src="images/logo.png" alt="guruji logo" />
+
+        <p>Guruji APP</p>
+      </div>
+
+      <a href="https://guruji.onelink.me/OE1w/fd993625" id="google-play">
+        <img id="app-store-logo" src="images/icon-google play.png" alt="Get it on googleplay" />
+      </a>
+    </header>
+
+    <section class="container">
+      <div id="video-container">
+        <video class="video" src="images/main.mp4"></video>
+        <div class="button buttons" style="height: 0px">
+          <button class="play-pause"></button>
+        </div>
+        <div class="controls hide" id="controls">
+          <div class="progress-bar">
+            <div class="progress"></div>
+          </div>
+
+          <div class="buttons btns">
+            <button class="play-pause"></button>
+          </div>
+
+          <div id="time-remaining"></div>
+          
+        </div>
+        
+
+        <div id="overlay-options" class="hide-overlay">
+           <div class="overlay-buttons">
+            <button id="pile1" class="overlay-btns">
+                Pile1
+            </button>
+            <button id="pile2" class="overlay-btns">
+                Pile2
+            </button>
+            <button id="pile3" class="overlay-btns">
+                Pile3
+            </button>
+           </div>
+
+            <p>
+               Please Choose your selected pile. <br>
+               Apne Select kiye hue Pile par Click kijiye 
+            </p>
+        </div>
+      </div>
+  
+
+      <p class="article-p">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus similique deleniti ex voluptatem. Iure illum enim eligendi minus libero neque esse beatae pariatur dolor aliquid. Dicta voluptas officia itaque libero?
+        Sequi eum libero quas delectus quidem blanditiis non? Eum impedit excepturi animi, reprehenderit fuga molestiae maxime eaque ipsam voluptatibus provident nostrum officia sed optio consequuntur nihil dolores amet. Amet, nisi?
+    </p>
+
+      <div id="author-container">
+        <div id="author-image">
+          <img src="images/author-thumb.jpg" alt="author" />
+        </div>
+
+        <p>Name of Author</p>
+      </div>
+
+      <div id="article-stats">
+        <div>
+          <div id="like-post" class="center article-btn">
+            <img src="images/like-icon.svg" alt="" />
+          </div>
+          <p>12</p>
+        </div>
+        <div>
+          <div id="comment-post" class="center article-btn">
+            <img src="images/comment.svg" alt="" />
+          </div>
+          <p>13</p>
+        </div>
+        <div id="share-post " class="article-btn">
+          <img src="images/share.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <div style="height: 10px; width: 100%; background-color: #f6f6f6"></div>
+
+    <section class="container" id="comments-container">
+      <p>Comment</p>
+
+      <div id="comments">
+        <!-- Removed and added new comment block for post comments -->
+
+        <div class="comment">
+          <div class="comment-image">
+            <img src="images/astro-image.png" alt="" />
+          </div>
+
+          <div>
+            <div class="comment-name">
+              <div>
+                <p class="name">Guruji office</p>
+              </div>
+
+              <div>
+                <img src="images/Like.svg" alt="" />
+              </div>
+            </div>
+
+            <p class="date">2 days ago</p>
+            <p class="comment-text">
+              Always producing top flight article. Pretty amazing!
+            </p>
+
+            <div class="like-box">
+              <p>489 Likes</p>
+              <p>Reply</p>
+              <p class="pinned">Pinned</p>
+            </div>
+
+            <div class="reply">
+              <div class="reply-image">
+                <img src="images/astro-image.png" alt="" />
+              </div>
+
+              <div>
+                <div class="comment-name">
+                  <div>
+                    <p class="name">Guruji office</p>
+                  </div>
+                  <div>
+                    <img src="images/Like.svg" alt="" />
+                  </div>
+                </div>
+
+                <p class="date">2 days ago</p>
+                <p class="comment-text">
+                  Always producing top flight article. Pretty amazing!
+                </p>
+
+                <div class="like-box">
+                  <p>489 Likes</p>
+                  <p>Reply</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="reply">
+              <div class="reply-image">
+                <img src="images/astro-image.png" alt="" />
+              </div>
+              <div>
+                <div class="comment-name">
+                  <div>
+                    <p class="name">Guruji office</p>
+                  </div>
+                  <div>
+                    <img src="images/Like.svg" alt="" />
+                  </div>
+                </div>
+
+                <p class="date">2 days ago</p>
+                <p class="comment-text">
+                  Always producing top flight article. Pretty amazing!
+                </p>
+
+                <div class="like-box">
+                  <p>489 Likes</p>
+                  <p>Reply</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FROM HERE  -->
+    </section>
+
+    <!-- TO HERE -->
+    <div id="post-comment">
+      <input type="text" placeholder="Write a comment..." />
+      <div id="post-commment-btn">
+        <img src="images/post-icon.png" alt="" />
+      </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
