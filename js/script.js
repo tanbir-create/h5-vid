@@ -11,12 +11,13 @@ const shareData = {
 
   // Share must be triggered by "user activation"
   b.addEventListener('click', async () => {
-    try {
-      await navigator.share(shareData)
+      window.open(`whatsapp://send?text=${shareData.text}${shareData.url}`);
+//     try {
+//       await navigator.share(shareData)
      
-    } catch(err) {
-      console.log(err)
-    }
+//     } catch(err) {
+//       console.log(err)
+//     }
   });
 
 function getMobileOperatingSystem() {
