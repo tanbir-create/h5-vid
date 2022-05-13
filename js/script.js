@@ -11,7 +11,7 @@ const shareData = {
 
   // Share must be triggered by "user activation"
   b.addEventListener('click', async () => {
-      window.open(`whatsapp://send?text=${shareData.text}${shareData.url}`);
+      window.open(`whatsapp://send?text=${shareData.text}%0a${shareData.url}`);
 //     try {
 //       await navigator.share(shareData)
      
