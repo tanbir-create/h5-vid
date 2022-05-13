@@ -1,7 +1,7 @@
 let appStoreLogo = $("#app-store-logo");
 
 const shareData = {
-    title: 'MDN',
+ 
     text: 'Learn web development on MDN!',
     url: `${window.location.href}`
   }
