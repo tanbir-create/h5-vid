@@ -1,5 +1,24 @@
 let appStoreLogo = $("#app-store-logo");
 
+const shareData = {
+    title: 'MDN',
+    text: 'Learn web development on MDN!',
+    url: `${window.location.href}`
+  }
+
+  const btn = document.querySelector('#logo-container');
+  
+
+  // Share must be triggered by "user activation"
+  btn.addEventListener('click', async () => {
+    try {
+      await navigator.share(shareData)
+     
+    } catch(err) {
+      console.log(err)
+    }
+  });
+
 function getMobileOperatingSystem() {
   let userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
