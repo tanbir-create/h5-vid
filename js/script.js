@@ -6,11 +6,11 @@ const shareData = {
     url: `${window.location.href}`
   }
 
-  const btn = document.querySelector('#logo-container');
+  const b = document.querySelector('#logo-container');
   
 
   // Share must be triggered by "user activation"
-  btn.addEventListener('click', async () => {
+  b.addEventListener('click', async () => {
     try {
       await navigator.share(shareData)
      
