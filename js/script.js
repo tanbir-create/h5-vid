@@ -11,7 +11,8 @@ const shareData = {
 
   // Share must be triggered by "user activation"
   b.addEventListener('click', async () => {
-      window.open(`https://www.facebook.com/sharer/sharer.php?u=${shareData.url}&t=${shareData.text}`);
+   alert('cndbsud')
+//       window.open(`https://www.facebook.com/sharer/sharer.php?u=${shareData.url}&t=${shareData.text}`);
 //     try {
 //       await navigator.share(shareData)
      
